@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(36, 38, 39);
+}
+.container {
+  border: 1px solid #ddd;
+  max-width: 700px;
+  margin: 5% auto;
+  background-color: #ddd;
+}
+.container h1 {
+  text-align: center;
+  color: #4caf50;
+}
+form {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  border: 1px solid #ccc;
+}
+input {
+  margin-top: 0.5rem;
+  padding: 0.3rem 0.8rem;
+  border: 1px solid #ccc;
+  outline-color: rgb(215, 226, 233);
+}
+/* input:focus {
+  outline-color: lightskyblue;
+} */
+label {
+  letter-spacing: 0.3rem;
+  font-family: monospace;
+  color: crimson;
+}
+.btn-container {
+  margin-top: 2rem;
+}
+i {
+  color: blue;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.3rem 0.8rem;
+  letter-spacing: 0.3rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  outline-color: #ccc;
+  cursor: pointer;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+.number {
+  font-family: cursive;
+}
+table {
+  max-width: 500px;
+  margin: 2% auto;
+}
+thead {
+  background-color: white;
+}
+th {
+  padding: 0.3rem 1.5rem;
+  color: tan;
+  letter-spacing: 0.3rem;
+}
+
+tr {
+  text-align: center;
+}
+
+td {
+  /* border: 2px dotted #ccc; */
+}
+tbody td {
+  letter-spacing: 0.1rem;
+  background-color: rgb(36, 2, 36);
+  color: white;
+}
+.fa-edit {
+  color: #4caf50;
+  cursor: pointer;
+}
+.fa-trash {
+  color: #ff0000;
+  cursor: pointer;
+}
